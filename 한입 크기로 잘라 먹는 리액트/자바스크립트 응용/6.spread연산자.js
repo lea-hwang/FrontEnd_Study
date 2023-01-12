@@ -29,4 +29,4 @@ const topingCookies = ["바나나쿠키", "블루베리쿠키", "딸기쿠기", 
 
 const AllCookies = [...noTopingCookies, ...topingCookies, "또다른 쿠키"];
 
-console.log(AllCookies);
+console.log(AllCookies); 

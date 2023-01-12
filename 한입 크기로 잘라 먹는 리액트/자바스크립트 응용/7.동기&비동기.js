@@ -61,6 +61,7 @@ taskC(14, (res) => {
   console.log("C task result: ", res);
 });
 
+
 // Callback Hell. 콜백 지옥. 가독성이 떨어짐. -> promise로 해결할 수 있음
 taskA(4, 5, (a_res) => {
   console.log("A result :", a_res); // A result : 9

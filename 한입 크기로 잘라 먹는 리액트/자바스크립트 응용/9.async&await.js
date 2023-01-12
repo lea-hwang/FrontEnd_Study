@@ -30,6 +30,7 @@ async function helloAsync2() {
   return "hello Async2";
 }
 
+
 function main() {
   helloAsync2().then((res) => {
     console.log(res);
